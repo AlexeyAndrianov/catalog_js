@@ -1,0 +1,81 @@
+catalog = {
+	"items": [
+	 {
+	   "name": "Электроника",
+	   "id": 1,
+	   "items": [
+	      {
+	        "name": "Телефоны",
+	        "id": 17,
+	        "items": [
+	        	{
+	        		"name": "Apple",
+	        		"id": 3,
+	        		"items": [
+	        			{
+	        				"name": "iPhone7",
+	        				"color": "white",
+	        				"version 32GB": {
+	        					"price": "550$"
+	        				},
+	        				"version 128GB": {
+	        					"price": "850$",
+	        					"delivery_time": "2 weeks",
+	        					"test": {
+	        						"deep nested key": "deep nested value"
+	        					}
+	        				}
+	        			},
+	        			{
+									"name": "iPhone6",
+	        				"color": "grey",
+	        				"version 32GB": {
+	        					"price": "450$"
+	        				}
+	        			}
+	        		]
+	        	},
+
+	        	{
+	        		"name": "Samsung",
+	        		"id": 4,
+	        		"items": [
+	        			{
+	        				"name": "Galaxy S7",
+	        				"version 32GB": {
+	        					"price": "370$",
+	        					"dispay size": "5.5 inch"
+	        				}
+	        			}
+	        		]
+	        	},
+	        ]
+	      },
+	      {
+					"name": "Ноутбуки",
+					"id": 45,
+					"items": [
+	        	{
+	        		"name": "Apple",
+	        		"id": 3,
+	        		"items": [
+	        			{
+	        				"name": "Macbook13",
+	        				"DDR3": "8GB",
+	        				"price": "1550$"
+	        			},
+	        			{
+									"name": "Macbook15",
+	        				"price": "2450$"
+	        			}
+	        		]
+	        	},
+	        ]
+	      }
+	    ]
+   },
+   {
+   	"name": "Мебель"
+   }
+	]
+}
